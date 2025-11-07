@@ -24,8 +24,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 <title>Sombrero Seleccionador de Hogwarts</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<div class="container">
+<body style="height: 100vh; display: flex; align-items: center; justify-content: center; background-color: rgba(71, 53, 62, 0.15);">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
 <h1 class="text-center mb-4">Benvinguts a Hogwarts</h1>
     <form action="index.php" method="POST">
         <label for="nombre">Nombre: </label>
